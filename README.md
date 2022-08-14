@@ -26,9 +26,9 @@ I would like interested people to help me on the following project, cynically na
 The TLS 1.3 is not always correctly implemented on the DNS PKI. We shall replace it by the state-of-the-art Wiregard. There is several aspects to consider in the DNS:
 
 1. The concentration of risk in a PKI
-2. The generation of websites certificates
-3. The storage of websites certificates
-4. The access to websites certificates
+2. The generation of domain names certificates
+3. The storage of domain names certificates
+4. The access to domain names certificates
 5. The DNS requests and answers
 6. The access to the Web ressources
 7. The DNS servers information
@@ -37,7 +37,7 @@ The TLS 1.3 is not always correctly implemented on the DNS PKI. We shall replace
 
 2.The domain name owner shall generate its own Wireguard key pair with wg for each domain and subdomain. The domain name owner shall create a certificate file containing the domain name of its website and the public key generated with wg according to the following standard: column 1: domain name, column 2: public key. The domain name owner shall then self-sign with PGP the certificate file with the same private key he generated with wg.
 
-3.Domain name owners shall post the certificate file for each of their domains and subdomains on several IPs along with their PGP public key. Domain name owners shall publish their PGP public key at least on the websites corresponding to their domain names. Domain name owners shall put their Wireguard public key in a standard WHOIS section and in a TLSA record.
+3.Domain name owners shall post the certificate file for each of their domains and subdomains on several IPs along with their PGP public key. Domain name owners shall publish their PGP public key at least on the websites corresponding to their domain names. Domain name owners shall put their Wireguard public key in a standard WHOIS section and in a TLSA record. Redundancy and integrity verifications shall be automated and certificates shall be propagated automatically to all IPs.
 
 4.The browser shall be connected via Wireguard tunnels to the IPs where certificates are posted. Browser developers would then avoid storage of certificates in the browser. In other words, each domain name owner shall be its own CA. Domain names shall still be sold the same way. The Wireguard public key shall be seen in a standard WHOIS section and in a TLSA record.
 
