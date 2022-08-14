@@ -13,7 +13,6 @@ https://en.wikipedia.org/wiki/Henry_Kissinger the colors were inverted on this a
 
 https://legacktem.com/ the font of the main page is changed on this attack which can be observed on tor exit nodes and in Orange France ADSL networks, the attack is documented there: https://legacktem.com/blog-english/wp-content/uploads/2022/08/IMG_1296.mov
 https://www.instagram.com/tv/CgwYd_glulw/?igshid=NmZiMzY2Mjc=
-
 I was not able to verify the website IP address aside from the wordpress comment IP origin.
 
 https://cybernews.com/resources/what-is-a-dns-attack/
