@@ -8,12 +8,16 @@ https://github.com/eamadit/
 Good Day,
 
 I can regularly observe TLS 1.3 secured website duplications. The attacker indicates its presence by slight modifications on the web page. In particular, I obseved this on the two following web pages:
+
 https://en.wikipedia.org/wiki/Henry_Kissinger the colors were inverted on this attack which has been observed in Orange France ADSL networks: https://www.instagram.com/p/ChP_bPhNlOa/?igshid=MDJmNzVkMjY=
+
 https://legacktem.com/ the font of the main page is changed on this attack which can be observed on tor exit nodes and in Orange France ADSL networks, the attack is documented there: https://legacktem.com/blog-english/wp-content/uploads/2022/08/IMG_1296.mov
 https://www.instagram.com/tv/CgwYd_glulw/?igshid=NmZiMzY2Mjc=
 
 I was not able to verify the website IP address aside from the wordpress comment IP origin.
+
 https://cybernews.com/resources/what-is-a-dns-attack/
+
 The website of the IETF does not accept draft submission because of an error indicating problems with unicode glyphes, which appears to be a simulated error after long verifications of each glyphe on the submitted text file. Supposedly, the IETF website hacker indicates its presence this way.
 
 I would like interested people to help me on the following project, cynically named RFC08032022:
