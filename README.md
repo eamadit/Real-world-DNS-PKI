@@ -39,6 +39,10 @@ The TLS 1.3 is not always correctly implemented on the DNS PKI. We shall replace
 
 https://cpl.thalesgroup.com/faq/public-key-infrastructure-pki/what-certification-authority-or-root-private-key-theft
 
+Also, it appears clearly that websites providing information about compromising electromagnetic signals have disappeared from the web.
+
+https://www.ssi.gouv.fr/uploads/IMG/pdf/II300_tempest_anssi.pdf
+
 2.The domain name owner shall generate its own Wireguard key pair with wg for each domain and subdomain. The domain name owner shall create a certificate file containing the domain name of its website and the public key generated with wg according to the following standard: column 1: domain name, column 2: public key. The domain name owner shall then self-sign with PGP the certificate file with the same private key he generated with wg.
 
 3.Domain name owners shall post the certificate file for each of their domains and subdomains on several IPs along with their PGP public key. Domain name owners shall publish their PGP public key at least on the websites corresponding to their domain names. Domain name owners shall put their Wireguard public key in a standard WHOIS section and in a TLSA record. Redundancy and integrity verifications shall be automated and certificates shall be propagated automatically to all IPs.
