@@ -33,19 +33,19 @@ The TLS 1.3 is not always correctly implemented on the DNS PKI. We shall replace
 6. The access to the Web ressources
 7. The DNS servers information
 
-1. The DNS PKI has several levels and concentrates risk on very few root Certification Authorities (CAs). Also, it is said that some root certificates private keys have leaked. We shall use only one level to reduce risk. Indeed, absolute root CAs shall be seen as the top of the DNS PKI pyramid.
+1.The DNS PKI has several levels and concentrates risk on very few root Certification Authorities (CAs). Also, it is said that some root certificates private keys have leaked. We shall use only one level to reduce risk. Indeed, absolute root CAs shall be seen as the top of the DNS PKI pyramid.
 
-2. The domain name owner shall generate its own Wireguard key pair with wg for each domain and subdomain. The domain name owner shall create a certificate file containing the domain name of its website and the public key generated with wg according to the following standard: column 1: domain name, column 2: public key. The domain name owner shall then self-sign with PGP the certificate file with the same private key he generated with wg.
+2.The domain name owner shall generate its own Wireguard key pair with wg for each domain and subdomain. The domain name owner shall create a certificate file containing the domain name of its website and the public key generated with wg according to the following standard: column 1: domain name, column 2: public key. The domain name owner shall then self-sign with PGP the certificate file with the same private key he generated with wg.
 
-3. Domain name owners shall post the certificate file for each of their domains and subdomains on several IPs along with their PGP public key. Domain name owners shall publish their PGP public key at least on the websites corresponding to their domain names. Domain name owners shall put their Wireguard public key in a standard WHOIS section and in a TLSA record.
+3.Domain name owners shall post the certificate file for each of their domains and subdomains on several IPs along with their PGP public key. Domain name owners shall publish their PGP public key at least on the websites corresponding to their domain names. Domain name owners shall put their Wireguard public key in a standard WHOIS section and in a TLSA record.
 
-4. The browser shall be connected via Wireguard tunnels to the IPs where certificates are posted. Browser developers would then avoid storage of certificates in the browser. In other words, each domain name owner shall be its own CA. Domain names shall still be sold the same way. The Wireguard public key shall be seen in a standard WHOIS section and in a TLSA record.
+4.The browser shall be connected via Wireguard tunnels to the IPs where certificates are posted. Browser developers would then avoid storage of certificates in the browser. In other words, each domain name owner shall be its own CA. Domain names shall still be sold the same way. The Wireguard public key shall be seen in a standard WHOIS section and in a TLSA record.
 
-5. Wireguard shall replace DoT and DoH for DNS requests.
+5.Wireguard shall replace DoT and DoH for DNS requests.
 
-6. When the user visits a website, the browser shall look for the domain or subdomain Wireguard public key in the WHOIS, a TLSA record and in one or several of the IPs where the certificates are stored. The browser shall then connect through a Wireguard tunnel to the ressource address answered by the DNS server if the public key corresponds to the domain name of the website after checking the WHOIS, the TLSA record and the IPs where the certificates are stored.
+6.When the user visits a website, the browser shall look for the domain or subdomain Wireguard public key in the WHOIS, a TLSA record and in one or several of the IPs where the certificates are stored. The browser shall then connect through a Wireguard tunnel to the ressource address answered by the DNS server if the public key corresponds to the domain name of the website after checking the WHOIS, the TLSA record and the IPs where the certificates are stored.
 
-7. SDNS shall connect all non-zombie DNS servers together until this project is deployed.
+7.SDNS shall connect all non-zombie DNS servers together until this project is deployed.
 
 Example:
 
