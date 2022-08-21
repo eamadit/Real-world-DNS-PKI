@@ -81,7 +81,7 @@ Derive the public key from it: cat privkey | wg pubkey > pubkey
 
 Generate a certificate file: echo "domainname.xyz" | cat - pubkey > certificate.file
 
-Generate a PGP keypair with RSA 4096 (can vary depending on gpg version): gpg --gen-key (1) RSA and RSA (default) (4096) 0 #the key does not expire Camille Planat cplanat@danstachatte.xyz <passphrase>
+Generate a PGP keypair with RSA state of the art bit length key, according to the Cyber Knights Templars, maybe more than 64k: https://alt.security.pgp.narkive.com/BXVOpAKJ/how-to-generate-longer-even-32768-bit-long-key-with-gpg
 
 Export public PGP key: gpg -a --export KEYID > public.asc
 
