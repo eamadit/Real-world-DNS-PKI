@@ -1,3 +1,5 @@
+https://legacktem.com/wiki/pmwiki.php?n=Main.RFC08032022
+
 # Real-world-DNS-PKI
 I can regularly observe TLS 1.3 secured website duplications. The attacker indicates its presence by slight modifications on the web page. The website of the IETF does not accept draft submission because of an error indicating problems with unicode glyphes, which appears to be a simulated error after long verifications of each glyphe on the submitted text file. Supposedly, the IETF website hacker indicates its presence this way. I would like interested people to help me on the following project, cynically named RFC08032022. This work shall be governed by an Apache License 2.0 interpreted under French law.
 
