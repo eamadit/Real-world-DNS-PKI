@@ -17,7 +17,11 @@ https://legacktem.com/ the font of the main page is changed on this attack which
 https://www.instagram.com/tv/CgwYd_glulw/?igshid=NmZiMzY2Mjc=
 I was not able to verify the website IP address aside from the wordpress comment IP origin.
 
+https://haxf4rall.com/2021/10/23/forgecert-golden-certificates/
+
 https://cybernews.com/resources/what-is-a-dns-attack/
+
+https://www.darknet.org.uk/2011/02/mallory-transparent-tcp-udp-proxy/
 
 The website of the IETF does not accept draft submission because of an error indicating problems with unicode glyphes, which appears to be a simulated error after long verifications of each glyphe on the submitted text file. Supposedly, the IETF website hacker indicates its presence this way.
 
