@@ -61,6 +61,8 @@ https://www.ssi.gouv.fr/uploads/IMG/pdf/II300_tempest_anssi.pdf
 
 7.SDNS shall connect all non-zombie DNS servers together until this project is deployed.
 
+https://sdns.dev/
+
 Example:
 
 Setup a VPS:
