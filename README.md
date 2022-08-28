@@ -102,14 +102,31 @@ Upload your certificate file to an IP through a Wireguard tunnel: curl...
 Upload your PGP public key to an IP through a Wireguard tunnel: curl...
 
 Sources:
+
 https://www.instagram.com/p/CgRoJDNNxm_/?igshid=ZjhmMmE0MjU=
+
 https://security.stackexchange.com/questions/87564/how-does-ssl-tls-pki-work
+
 https://www.wireguard.com/quickstart/
+
 https://www.scaleway.com/en/docs/tutorials/install-wireguard/
+
 https://www.reddit.com/r/WireGuard/comments/d8iidj/wireguard_as_a_replacement_for_dns_over_tls/
+
 https://doc.turris.cz/doc/en/public/wireguard
+
 https://superuser.com/questions/1285136/cat-command-and-echo
+
 https://askubuntu.com/questions/679230/how-to-sign-files-with-ubuntu-command-line-tools-and-my-own-keys
+
 https://gock.net/blog/2020/gpg-cheat-sheet/
+
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
 https://gist.github.com/amingilani/8ccb1e1422800d4d9a31
+
+https://legacktem.com/wiki/pmwiki.php?n=Main.RFC08032022
+
+https://web.archive.org/web/20220806220806/https://security.stackexchange.com/questions/263945/can-you-liberal-guys-help-me-on-my-decentralized-and-non-pyramidal-dns-pki-secur
+
+https://web.archive.org/web/20220806091213/https://security.stackexchange.com/questions/263945/can-you-liberal-guys-help-me-on-my-decentralized-and-non-pyramidal-dns-pki-secur
