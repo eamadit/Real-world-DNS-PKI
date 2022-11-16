@@ -69,7 +69,7 @@ Write an Arch Linux install script with the following packages:
 
 Prepare the Arch Linux VM file, the VM will host the key server described above for redundancy speed increase in case of successful attacks:
 
-Setup a VPS:
+If there are enough physical machines deployed for fast enough integrity checks, the following VPS setup will not be rejected by the pool:
 
 Deploy a Linux OS in the VPS:
 
