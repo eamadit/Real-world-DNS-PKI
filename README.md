@@ -65,6 +65,10 @@ https://sdns.dev/
 
 Example:
 
+Write an Arch Linux install script with the following packages:
+
+Prepare the Arch Linux VM file, the VM will host the key server described above for redundancy speed increase in case of successful attacks:
+
 Setup a VPS:
 
 Deploy a Linux OS in the VPS:
